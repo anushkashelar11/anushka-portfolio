@@ -350,16 +350,16 @@ footer.ffold{background:none;padding:0;color:#fff;position:relative;overflow:hid
 body[data-wf="b"] .pencils{display:block}
 body[data-wf="b"] #line,body[data-wf="b"] .wf-hint,body[data-wf="b"] .wf-l1{display:none}
 .wf-l2{display:none}body[data-wf="b"] .wf-l2{display:inline}
-.pc-row{display:flex;justify-content:center;align-items:flex-end;gap:18px;height:440px;margin-top:0;padding:0 24px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
+.pc-row{display:flex;justify-content:center;align-items:flex-end;gap:18px;height:470px;margin-top:0;padding:0 24px;overflow-x:auto;overflow-y:hidden;scrollbar-width:none}
 .pc-row::-webkit-scrollbar{display:none}
-.pc{flex:0 0 110px;height:calc(var(--h) * .82);border:0;padding:0;background:none;cursor:pointer;position:relative;display:flex;flex-direction:column;align-items:center;transform:translateY(40px);transition:transform .45s var(--spring)}
+.pc{flex:0 0 110px;height:calc(var(--h) * .88);border:0;padding:0;background:none;cursor:pointer;position:relative;display:flex;flex-direction:column;align-items:center;transform:translateY(40px);transition:transform .45s var(--spring)}
 .pc:hover,.pc.on,.pc:focus-visible{transform:translateY(0)}
 .pc-tip{width:110px;height:96px;flex:none;background:linear-gradient(90deg,#C99A6B 0 33%,#DDB487 33% 66%,#B8885A 66%);clip-path:polygon(50% 0,100% 100%,0 100%);position:relative}
 .pc-tip::after{content:"";position:absolute;left:50%;top:0;width:30px;height:28px;transform:translateX(-50%);background:#2b2a28;clip-path:polygon(50% 0,100% 100%,0 100%)}
 .pc-body{flex:1;width:110px;position:relative;background:linear-gradient(90deg,rgba(0,0,0,.08) 0 33%,rgba(255,255,255,.12) 33% 66%,rgba(0,0,0,.14) 66%),var(--c);display:flex;justify-content:center;overflow:hidden}
 .pc-body::before{content:"";position:absolute;left:0;right:0;top:0;height:10px;background:linear-gradient(180deg,rgba(0,0,0,.18),transparent);clip-path:polygon(0 0,33% 60%,66% 40%,100% 0,100% 100%,0 100%)}
-.pc-txt{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;gap:14px;padding:66px 0 22px;color:var(--tc)}
-.pc-txt b{font:700 34px/1 var(--sans);letter-spacing:1px}
+.pc-txt{writing-mode:vertical-rl;transform:rotate(180deg);display:flex;align-items:center;gap:12px;padding:44px 0 22px;color:var(--tc)}
+.pc-txt b{font:700 30px/1 var(--sans);letter-spacing:1px}
 .pc-txt i{font:500 12px var(--mono);font-style:normal;opacity:.75;letter-spacing:1px}
 .pc-bar{position:absolute;left:62%;bottom:64px;width:26px;height:120px;background:repeating-linear-gradient(180deg,var(--tc) 0 2px,transparent 2px 4px,var(--tc) 4px 5px,transparent 5px 8px,var(--tc) 8px 11px,transparent 11px 13px);opacity:.55}
 .pc-cap{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin-top:16px;min-height:40px}
@@ -392,7 +392,7 @@ body[data-wf="b"] #line,body[data-wf="b"] .wf-hint,body[data-wf="b"] .wf-l1{disp
     <p class="lede">This is my typical workflow. It goes in cycles and iterations: depending on the situation I'm in, I jump between steps, but in the end, I ship haha.</p>
     <div class="wf-hint"><span>drag</span><div class="wf-progress"><i id="wfbar"></i></div><span id="wfstep">01 / 06</span></div>
   </div>
-  <div class="pencils" aria-label="My workflow as pencils"><div class="pc-row"><button class="pc" style="--c:#4FA35A;--tc:#11331a;--h:430px" data-n="01" data-t="Discover" data-d="Talking to people and finding the real problem."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DISCOVER</b><i>01 · anushka®</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E9E4D4;--tc:#2b2a28;--h:330px" data-n="02" data-t="Define" data-d="Turning messy findings into a clear brief."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DEFINE</b><i>02 · anushka®</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#5A86C4;--tc:#0f1f3d;--h:470px" data-n="03" data-t="Ideate" data-d="Sketching lots of ideas before picking one."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>IDEATE</b><i>03 · anushka®</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E79A2B;--tc:#2b1a04;--h:390px" data-n="04" data-t="Design" data-d="Crafting flows, screens and systems."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DESIGN</b><i>04 · anushka®</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#2B2A28;--tc:#EDE7D8;--h:520px" data-n="05" data-t="Test" data-d="Putting it in front of real users."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>TEST</b><i>05 · anushka®</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E89AA0;--tc:#3a1418;--h:360px" data-n="06" data-t="Ship" data-d="Handing off and seeing it go live."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>SHIP</b><i>06 · anushka®</i></span><span class="pc-bar"></span></span></button></div>
+  <div class="pencils" aria-label="My workflow as pencils"><div class="pc-row"><button class="pc" style="--c:#4FA35A;--tc:#11331a;--h:400px" data-n="01" data-t="Discover" data-d="Talking to people and finding the real problem."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DISCOVER</b><i>01</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E9E4D4;--tc:#2b2a28;--h:425px" data-n="02" data-t="Define" data-d="Turning messy findings into a clear brief."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DEFINE</b><i>02</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#5A86C4;--tc:#0f1f3d;--h:450px" data-n="03" data-t="Ideate" data-d="Sketching lots of ideas before picking one."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>IDEATE</b><i>03</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E79A2B;--tc:#2b1a04;--h:475px" data-n="04" data-t="Design" data-d="Crafting flows, screens and systems."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>DESIGN</b><i>04</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#2B2A28;--tc:#EDE7D8;--h:500px" data-n="05" data-t="Test" data-d="Putting it in front of real users."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>TEST</b><i>05</i></span><span class="pc-bar"></span></span></button><button class="pc" style="--c:#E89AA0;--tc:#3a1418;--h:530px" data-n="06" data-t="Ship" data-d="Handing off and seeing it go live."><span class="pc-tip"></span><span class="pc-body"><span class="pc-txt"><b>SHIP</b><i>06</i></span><span class="pc-bar"></span></span></button></div>
     <div class="pc-cap wrap"><b id="pcN">01</b><span id="pcT">Discover</span><em id="pcD">Talking to people and finding the real problem.</em></div></div>
   <div class="line-wrap" id="line">
     <div class="track" id="track"><svg class="rope" id="rope"></svg></div>
@@ -428,16 +428,6 @@ body[data-wf="b"] #line,body[data-wf="b"] .wf-hint,body[data-wf="b"] .wf-l1{disp
 </section>
 
 <!-- ============ CTA ============ -->
-<section class="cta-end" id="talk">
-  <div class="wrap reveal"><h2>So, shall we talk?</h2>
-    <p class="lede">Open to product and UI/UX roles in Pune, remotely, or wherever the right team is, and to freelance projects.</p>
-    <div class="snap-actions">
-      <a class="btn-ink resume-dl" href="resume.pdf" target="_blank" rel="noopener">Download resume ↓</a>
-      <a class="btn-line" href="mailto:anushka.shel@gmail.com">Email me</a>
-      <a class="btn-line" href="#card-booth">Take my visiting card</a>
-    </div>
-  </div>
-</section>
 </main>
 <footer id="contact">
   <div class="grid-lines"></div>
@@ -1049,7 +1039,7 @@ try{history.scrollRestoration='manual'}catch(e){}
 (()=>{const B=document.body;B.dataset.wf='b';
  const pcs=[...document.querySelectorAll('.pc')],N=document.getElementById('pcN'),T=document.getElementById('pcT'),D=document.getElementById('pcD');
  const pick=p=>{pcs.forEach(x=>x.classList.toggle('on',x===p));N.textContent=p.dataset.n;T.textContent=p.dataset.t;D.textContent=p.dataset.d};
- pcs.forEach(p=>{p.addEventListener('mouseenter',()=>pick(p));p.addEventListener('focus',()=>pick(p));p.addEventListener('click',()=>pick(p))});if(pcs[0])pick(pcs[0]);
+ pcs.forEach(p=>{p.addEventListener('mouseenter',()=>pick(p));p.addEventListener('focus',()=>pick(p));p.addEventListener('click',()=>pick(p))});if(pcs[0]){pick(pcs[0]);pcs[0].classList.remove('on')}
  const sw=[...document.querySelectorAll('.wfsw button')];const sync=()=>sw.forEach(b=>b.classList.toggle('on',b.dataset.v===B.dataset.wf));
  sw.forEach(b=>b.addEventListener('click',()=>{B.dataset.wf=b.dataset.v;sync();dispatchEvent(new Event('resize'))}));sync()})();
 </script>
